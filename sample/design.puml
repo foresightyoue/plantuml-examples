@@ -1,0 +1,87 @@
+
+' https://www.plantuml.com/plantuml/uml/VPFTYjD05CVlvodcpgki9hkk7nVBWbV22Wlg0uJTOIdKh6H7GKJ8riQMbjQAjdw8bf26zgPHKVmmDdaOCvF9MpY7jAKj4w-IERyVC-Vy9za_ewPD7zoh8bgXLOADxMpS4M4iGezFFFRdUVQkVlVM0NiV8viSKTCwaPB-rpbddNuQjmldCRg0RrS0qLCBtpSf9RQ5p1DYKNnWFjfSwAih7Q6YYZLjRodCdtXhQs-feIShBHYoXUpLa3TxxEraqOLrUapmKRKYDo_UpuZzaDWO5JNORLvQL3HjuLp7TsuSNhnvY3SEsePPkqFsSJdh6ju1_2DWtHeV_E9V-qhfifHuQoQ-U8Mgb7Qbb4P-rdkcn5SapfrQxdPWO9Ln5IA9wgpNLE9h4WlVpOFFmd6LXdu9MlWzOUvJDTTXsD50Z6jgRi2SNi2xWPf3bjbqaFLB-0xmrdVkdAivv2Y--MaKvIzZjR8BojZF6wsoc7H8ahsOfT58pI57EIBxD2mD2h9aemPBth2P-ieDo58aKtcZPOqO4ASa_4Fods_7W515cEIlmx9s3CWr_IdFQgyh-yGwbh_sFm00
+@startuml
+title 23种设计模式的UML图
+rectangle 1、单例模式{
+' Singleton pattern
+agent Layern
+agent Layern1
+agent Layer1
+
+Layern --> Layern1
+Layern1 ..> Layer1
+
+
+}
+rectangle 2、生成器模式{
+node client
+node server 
+client ..> server
+client -- server : TCP/IP 
+
+
+}
+rectangle 3、原型模式{
+
+}
+rectangle 4、工厂方法模式{
+
+}
+rectangle 5、抽象工厂模式{
+
+}
+rectangle 6、代理模式{
+
+}
+rectangle 7、适配器模式{
+
+}
+rectangle 8、组合模式{
+
+}
+rectangle 9、装饰者模式{
+
+}
+rectangle 10、亨元模式{
+
+}
+rectangle 11、外观模式{
+
+}
+rectangle 12、桥接模式{
+
+}
+rectangle 13、策略模式{
+
+}
+rectangle 14、状态模式{
+
+}
+rectangle 15、责任链模式{
+
+}
+rectangle 16、解释器模式{
+
+}
+rectangle 17、命令模式{
+
+}
+rectangle 18、观察者模式{
+
+}
+rectangle 19、备忘录模式{
+
+}
+rectangle 20、迭代器模式{
+
+}
+rectangle 21、模板方法模式{
+
+}
+rectangle 22、访问者模式{
+
+}
+rectangle 23、中介者模式{
+
+}
+@enduml
